@@ -1,0 +1,16 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+<link href="style.css" rel="stylesheet"/>
+<div class="container">
+<h2>Scan and view child</h2>
+  <input type="text" id="name" placeholder="Enter Child Name">
+  <input type="text" id="parent" placeholder="Enter Parent Name">
+  <input type="number" id="age" placeholder="Enter Age">
+  <input type="tel" id="phone" placeholder="Enter Phone Number" max="10">
+  <input type="text" id="address" placeholder="Enter address ">
+  
+  <button onclick="generateQR()">Submit</button>
+  <div id="qrcode"></div>
+</div>
+
+<script src="script.js"></script>
+
